@@ -1,0 +1,54 @@
+* {
+  color: #e6e6e6;
+  font-family: 'Tahoma';
+  font-size: 10px; }
+
+body {
+  background: url(../img/bg.jpg) no-repeat center center;
+  margin: 0 auto;
+  background-size: cover;
+  padding-left: 70px; }
+
+#header {
+  width: 830px;
+  height: 147px;
+  margin: 0 auto; }
+  #header #logo {
+    width: 266px;
+    height: 147px;
+    background: url("../img/palm_tree.png") no-repeat center right;
+    text-align: center;
+    float: left; }
+    #header #logo #logoImg {
+      padding-top: 75px; }
+  #header #contactUs {
+    width: 100px;
+    height: 36px;
+    float: right;
+    margin-right: 87px;
+    font-weight: 400;
+    padding-top: 90px; }
+    #header #contactUs #contact {
+      width: 53px;
+      height: 9px;
+      color: #e6e6e6;
+      font-family: Tahoma;
+      font-size: 8px;
+      font-weight: bold; }
+
+#main {
+  width: 823px;
+  height: 451px;
+  margin: 0 auto; }
+  #main #grid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 30% 30% 30%;
+    text-align: center;
+    grid-gap: 3%; }
+    #main #grid div {
+      font-size: 15px; }
+
+footer {
+  width: 100%;
+  text-align: center; }
